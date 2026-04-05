@@ -33,6 +33,12 @@ export default class Player {
     this.x += this.vx * dt;
     this.y += this.vy * dt;
 
+    // Prevent going left beyond the start of the level
+    if (this.x < 0) {
+      this.x = 0;
+      this.vx = 0;
+    }
+
     // Simple AABB collision with platforms
     this.onGround = false;
     for (const p of platforms) {
