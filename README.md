@@ -24,7 +24,7 @@ Simple browser jump-and-run game featuring the Hintsch siblings Paul, Lena and B
     npm start
     ```
 
-The dev server opens at http://localhost:3000 and displays a selection screen.
+The dev server opens at http://localhost:8080 and displays a selection screen.
 
 Controls
 - Left/Right arrows or A/D to move
